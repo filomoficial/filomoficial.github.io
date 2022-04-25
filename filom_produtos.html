@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <!--INCLUDE REQUIRED EXTERNAL JAVASCRIPT AND CSS LIBRARIES-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <style>
+        #box {
+            border:1px solid black;
+            background-color:black;
+        }
+
+        #box h6 {
+          color:white;
+        }
+          
+        label {
+            float: left;
+        }
+          
+        span {
+            display: block;
+            overflow: hidden;
+            padding: 0px 4px 0px 6px;
+        }
+
+        .topnav {
+          overflow: hidden;
+          background-color: #000000;
+        }
+
+        .topnav a {
+          float: left;
+          color: #ffffff;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        .topnav a:hover {
+          background-color: #6d6d6d;
+          color: white;
+        }
+
+        .topnav a.active {
+          background-color: #04AA6D;
+          color: white;
+        }
+
+		.iframe-container {
+		  overflow: hidden;
+		  /* 16:9 aspect ratio */
+		  padding-top: 56.25%;
+		  position: relative;
+		}
+		.iframe-container iframe {
+		   border: 0;
+		   height: 100%;
+		   left: 0;
+		   position: absolute;
+		   top: 0;
+		   width: 100%;
+		}
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="topnav">
+      <a href='https://filomoficial.github.io/filom_pedidos.html'>Pedidos</a>
+      <a href='https://filomoficial.github.io/filom_compras.html'>Compras</a>
+      <a href='https://filomoficial.github.io/filom_inventario.html'>Inventário</a>
+      <a class="active" href='https://filomoficial.github.io/filom_produtos.html'>Produtos</a>
+    </div>
+	<div class="iframe-container">
+<iframe src="https://script.google.com/macros/s/AKfycbyzqwOh4qLoAnWyWjuKqYYbvhUKXFK-z1Nw1c1jszQxCxGpKkn_JzvnNahDz23js0sR4g/exec?page=Produtos" scrolling="no"></iframe>
+	</div>
+  </body>
+</html>
